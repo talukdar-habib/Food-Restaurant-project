@@ -149,3 +149,75 @@ letter-spacing: 0%;
 text-align: center;
 /* gap: 10px; */
 }
+
+.image{
+    width: 100%;
+    height: 100%;
+}
+.image-container{
+    width: 50%;
+}
+    .food-container{
+        /* text-align: center; */
+        display: flex;
+        
+}
+.food-content{
+    text-align: center;
+}
+.food-content h1{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0%;
+/* text-align: center; */
+margin-top: 70px;
+}
+
+.food-content p{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 15px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+/* text-align: center; */
+opacity: 0.6;
+margin-bottom: 20px;
+}
+.food-content h6{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+/* margin-top: 20px; */
+}
+.food-content img{
+    width: 25px;
+    height: 25px;
+    /* text-align: center; */
+    align-items: center;
+    /* margin: 0 auto; */
+    margin-top: 20px;
+
+}
+#hudai{
+    background-image: linear-gradient(to right, rgba(250, 245, 245, 0.829), rgba(255, 255, 255, 0.781)), url(../assets/social-bg.png);
+    /* opacity: 0.5; */
+    background-repeat: no-repeat;
+    /* height: ; */
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
